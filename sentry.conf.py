@@ -33,6 +33,13 @@ SENTRY_SINGLE_ORGANIZATION = True
 # Should Sentry allow users to create new accounts?
 SENTRY_FEATURES['auth:register'] = False
 
+##############
+# Setuptools #
+##############
+
+# Ensure it's the latest version
+pip install --upgrade setuptools
+
 #########
 # Redis #
 #########
